@@ -1,0 +1,14 @@
+
+
+int numArr = [1, 2, 3, 4, 5, 6, ];
+int maxl = numArr.lenght;
+int N = 2;
+int temp = numArr.slice(0,(maxl - N));
+int output=[];
+if (N > maxl)
+ {
+    system.out.println("please enter a proper value for N");
+  }
+for (int count =(maxl - N); Count <maxl; count ++) {
+    output.push(numArr[count]);
+} system.out.println(output "&&" temp);
